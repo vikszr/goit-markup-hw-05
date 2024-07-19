@@ -479,6 +479,9 @@ img {
 
 .footer-button {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
   width: 165px;
@@ -489,14 +492,23 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  align-items: center;
-  gap: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  border: none;
+  background-color: #404bbf;
 }
 
 .footer-icon {
   fill: #fff;
 }
 
+.footer-sub-container {
+  display: flex;
+  gap: 24px;
+}
 /* ------------MODAL-------------- */
 
 .backdrop {
@@ -628,39 +640,45 @@ img {
 }
 
 .modal-item {
+  display: inline-block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .modal-privacy-text {
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
-  gap: 8px;
   margin-bottom: 24px;
 }
 
-/* // line-height: 16px;
-line-height: 1.33333;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-color: #4d5ae5; */
+.privacy-policy {
+  line-height: 1.33;
+  text-decoration: underline;
+  color: #4d5ae5;
+}
 
 .modal-privacy-text span {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   fill: transparent;
+}
+
+.check-span {
+  margin-right: 8px;
+}
+
+.terms-container {
+  margin-bottom: 24px;
 }
 
 .modal-privacy:checked + .modal-privacy-text span {

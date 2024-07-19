@@ -423,12 +423,14 @@
             </div>
             <form class="footer-form">
                 <p class="footer-item">Subscribe</p>
-                <input class="footer-email" type="email" name="footer-email" placeholder="E-mail">
-                <button class="footer-button" type="submit">Subscribe
-                    <svg class="footer-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-plane"></use>
-                    </svg>
-                </button>
+                <div class="footer-sub-container">
+                    <input class="footer-email" type="email" name="footer-email" placeholder="E-mail">
+                    <button class="footer-button" type="submit">Subscribe
+                        <svg class="footer-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-plane"></use>
+                        </svg>
+                    </button>
+                </div>
             </form>
         </div>
     </footer>
@@ -480,17 +482,17 @@
                         placeholder="Text input"></textarea>
                 </div>
 
-                <div class="modal-field">
+                <div class="modal-field terms-container">
                     <input class="modal-privacy visually-hidden" type="checkbox" name="privacy" id="privacy"
-                        value="true">
+                        value="true" />
                     <label class="modal-privacy-text" for="privacy">
-                        <span>
+                        <span class="check-span">
                             <svg class="" width="10" height="8">
                                 <use href="./images/icons.svg#icon-checkmark"></use>
                             </svg>
-                        </span> I accept the terms and conditions of
-                        the Privacy
-                        Policy</label>
+                        </span>
+                        I accept the terms and conditions of the <a href="" class="privacy-policy">Privacy
+                            Policy</a></label>
                 </div>
 
                 <div class="button-center">
