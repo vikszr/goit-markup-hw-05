@@ -503,10 +503,6 @@ img {
   margin-left: 16px;
 }
 
-/* .footer-sub-container {
-  display: flex;
-  gap: 24px;
-} */
 /* ------------MODAL-------------- */
 
 .backdrop {
@@ -584,15 +580,10 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
-
-  /* font-size: 16px;
-  max-width: 360px;
-  margin-bottom: 0; */
 }
 
 .modal-field {
   margin-bottom: 8px;
-  /* position: relative; */
 }
 
 .modal-item {
@@ -602,11 +593,6 @@ img {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
-
-  /* display: inline-block;
-  font-weight: 400;
-  line-height: 1.16667;
-  margin-bottom: 4px; */
 }
 
 .modal-form {
@@ -622,11 +608,6 @@ img {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* width: 360px;
-  height: 40px;
-  padding-left: 38px;
-  padding-right: 24px; */
 }
 
 .modal-input:focus,
@@ -655,7 +636,7 @@ img {
 .modal-comment {
   width: 100%;
   height: 120px;
-  font-style: 12px;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
@@ -666,14 +647,6 @@ img {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  outline: transparent;
-  resize: none; */
 }
 
 .modal-comment:focus {
@@ -694,13 +667,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-
-  /* margin-bottom: 24px; */
 }
-
-/* .check-span {
-  margin-right: 8px;
-} */
 
 .privacy-policy {
   line-height: 1.33;
@@ -749,17 +716,6 @@ img {
   cursor: pointer;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  border: none;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #4d5ae5;
-  text-align: center;
-  color: #fff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .button-center {
