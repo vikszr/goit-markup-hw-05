@@ -451,9 +451,6 @@ img {
 
 .footer-form {
   display: flex;
-}
-
-.footer-label {
   gap: 24px;
 }
 
@@ -469,7 +466,6 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-  margin-right: 24px;
 }
 
 .footer-email::placeholder {
@@ -507,10 +503,10 @@ img {
   margin-left: 16px;
 }
 
-.footer-sub-container {
+/* .footer-sub-container {
   display: flex;
   gap: 24px;
-}
+} */
 /* ------------MODAL-------------- */
 
 .backdrop {
