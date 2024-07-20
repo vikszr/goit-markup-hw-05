@@ -391,7 +391,7 @@ img {
 
 .social-media-container {
   display: block;
-  margin-right: 80px;
+  margin-right: auto;
 }
 
 .soc-list {
@@ -689,6 +689,10 @@ img {
   fill: transparent;
 }
 
+.check-span {
+  margin-right: 8px;
+}
+
 .terms-container {
   margin-bottom: 24px;
 }
@@ -701,9 +705,8 @@ img {
 
 .modal-button {
   display: block;
-  margin-left: 119px;
-  margin-right: 120px;
-  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -711,6 +714,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
